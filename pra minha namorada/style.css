@@ -1,0 +1,109 @@
+@import url(reset.css);
+
+:root {
+    --cor-principal: #000;
+    --cor-secundaria: #fff;
+    --cor-terciaria: rgb(160, 49, 160);
+    --cor-quaternaria: pink;
+    --cor-gradiente: linear-gradient(to right, #f1c6a4, #e3916e 100%);
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--cor-gradiente);
+    border-bottom: 2px solid var(--cor-secundaria);
+}
+
+.titulo {
+    font-size: 23px;
+    padding: 10px;
+    color: var(--cor-secundaria);
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    background-image: var(--cor-gradiente)
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    height: 23px;
+    margin: 45px 0;
+}
+
+.container {
+    margin-bottom: 70px;
+    height: 500px;
+    width: 275px;
+    border-radius: 16px;
+}
+
+.bloom {
+    background-color: #73d7ffb3;
+}
+
+.stella {
+    background-color: rgba(244, 116, 69, 0.806);
+}
+
+.flora {
+    background-color: rgba(233, 83, 133, 0.656);
+}
+
+.aisha {
+    background-color: #c5d867dc;
+}
+
+.musa {
+    background-color: #cf3441a7;
+}
+
+.tecna {
+    background-color: #bd83b3;
+}
+
+.imagem {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.texto {
+    margin: 10px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.botao {
+    background-color: rgb(132, 0, 0);
+    padding: 1em;
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
